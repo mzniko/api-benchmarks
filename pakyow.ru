@@ -8,6 +8,7 @@ class Wiggles < Pakyow::App
     server.port = '9292'
     app.src_dir = './'
     app.auto_reload = false
+    app.errors_in_browser = false
   end
 
   routes do
